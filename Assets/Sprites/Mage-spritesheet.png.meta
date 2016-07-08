@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: 0bd343e67efdf404dbd0402e3fba7c40
+timeCreated: 1462209484
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mage-spritesheet_0
+    21300002: Mage-spritesheet_1
+    21300004: Mage-spritesheet_2
+    21300006: Mage-spritesheet_3
+    21300008: Mage-spritesheet_4
+    21300010: Mage-spritesheet_5
+    21300012: Mage-spritesheet_6
+    21300014: Mage-spritesheet_7
+    21300016: Mage-spritesheet_8
+    21300018: Mage-spritesheet_9
+    21300020: Mage-spritesheet_10
+    21300022: Mage-spritesheet_11
+    21300024: Mage-spritesheet_12
+    21300026: Mage-spritesheet_13
+    21300028: Mage-spritesheet_14
+    21300030: Mage-spritesheet_15
+    21300032: Mage-spritesheet_16
+    21300034: Mage-spritesheet_17
+    21300036: Mage-spritesheet_18
+    21300038: Mage-spritesheet_19
+    21300040: Mage-spritesheet_20
+    21300042: Mage-spritesheet_21
+    21300044: Mage-spritesheet_22
+    21300046: Mage-spritesheet_23
+    21300048: Mage-spritesheet_24
+    21300050: Mage-spritesheet_25
+    21300052: Mage-spritesheet_26
+    21300054: Mage-spritesheet_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Mage-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 48}
+        - {x: -16, y: -30}
+        - {x: -13, y: -48}
+        - {x: 13, y: -48}
+        - {x: 16, y: -43}
+        - {x: 16, y: 48}
+    - name: Mage-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 192
+        width: 32
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 47}
+        - {x: -16, y: -41}
+        - {x: -13, y: -47}
+        - {x: 10, y: -47}
+        - {x: 16, y: -36}
+        - {x: 16, y: 40}
+        - {x: 8, y: 47}
+    - name: Mage-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 192
+        width: 36
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 48}
+        - {x: -18, y: 48}
+        - {x: -18, y: -33}
+        - {x: -15, y: -48}
+        - {x: 9, y: -48}
+        - {x: 18, y: -33}
+        - {x: 18, y: 18}
+        - {x: 13, y: 41}
+    - name: Mage-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 192
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 23}
+        - {x: -19, y: 23}
+        - {x: -19, y: -7}
+        - {x: -15, y: -23}
+        - {x: 8, y: -23}
+        - {x: 19, y: -13}
+        - {x: 19, y: -6}
+        - {x: 10, y: 17}
+    - name: Mage-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 192
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 22}
+        - {x: -20, y: 22}
+        - {x: -20, y: 4}
+        - {x: -15, y: -22}
+        - {x: 10, y: -22}
+        - {x: 20, y: -15}
+        - {x: 20, y: -2}
+        - {x: 13, y: 19}
+    - name: Mage-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 192
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 23}
+        - {x: -19, y: 23}
+        - {x: -19, y: -7}
+        - {x: -15, y: -23}
+        - {x: 8, y: -23}
+        - {x: 19, y: -13}
+        - {x: 19, y: -6}
+        - {x: 10, y: 17}
+    - name: Mage-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 192
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 24}
+        - {x: -18, y: -16}
+        - {x: -17, y: -24}
+        - {x: 9, y: -24}
+        - {x: 18, y: -7}
+        - {x: 18, y: 10}
+        - {x: 2, y: 24}
+    - name: Mage-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 144
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 17}
+        - {x: -3, y: 22}
+        - {x: -18, y: 22}
+        - {x: -18, y: -22}
+        - {x: 8, y: -22}
+        - {x: 18, y: -9}
+        - {x: 18, y: -2}
+        - {x: 16, y: -2}
+    - name: Mage-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 96
+        width: 34
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 46}
+        - {x: -17, y: -37}
+        - {x: -15, y: -46}
+        - {x: 17, y: -46}
+        - {x: 17, y: 41}
+        - {x: 11, y: 46}
+    - name: Mage-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 36
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 47}
+        - {x: -18, y: -44}
+        - {x: -12, y: -47}
+        - {x: 18, y: -47}
+        - {x: 18, y: 47}
+    - name: Mage-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 144
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -16, y: -14}
+        - {x: -13, y: -23}
+        - {x: 12, y: -23}
+        - {x: 16, y: -11}
+        - {x: 16, y: 21}
+        - {x: 11, y: 23}
+    - name: Mage-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -16, y: -22}
+        - {x: -13, y: -23}
+        - {x: 12, y: -23}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 2, y: 23}
+    - name: Mage-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -24}
+        - {x: 12, y: -24}
+        - {x: 16, y: -19}
+        - {x: 16, y: 15}
+        - {x: 7, y: 24}
+    - name: Mage-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -24}
+        - {x: 12, y: -24}
+        - {x: 16, y: -19}
+        - {x: 16, y: 15}
+        - {x: 7, y: 24}
+    - name: Mage-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 48
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 24}
+        - {x: -18, y: -13}
+        - {x: -17, y: -24}
+        - {x: 8, y: -24}
+        - {x: 18, y: -9}
+        - {x: 18, y: 9}
+        - {x: 4, y: 24}
+    - name: Mage-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 72
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 48
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 52
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 64
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 48
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 52
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -17}
+        - {x: 6, y: -19}
+        - {x: 18, y: -19}
+        - {x: 18, y: -15}
+        - {x: 8, y: -15}
+      - - {x: -16, y: 19}
+        - {x: -18, y: 6}
+        - {x: -18, y: -5}
+        - {x: 0, y: -5}
+        - {x: 10, y: 3}
+        - {x: 10, y: 9}
+        - {x: -6, y: 19}
+    - name: Mage-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 64
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 48
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -16}
+        - {x: 2, y: -18}
+        - {x: 16, y: -18}
+        - {x: 16, y: -14}
+        - {x: 4, y: -14}
+      - - {x: -12, y: 18}
+        - {x: -16, y: 10}
+        - {x: -16, y: -6}
+        - {x: 9, y: -6}
+        - {x: 12, y: -1}
+        - {x: 12, y: 7}
+        - {x: -1, y: 18}
+    - name: Mage-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mage-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
