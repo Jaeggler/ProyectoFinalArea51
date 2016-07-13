@@ -90,7 +90,7 @@ public class BattleController : MonoBehaviour {
                 {
                     if (targetHealth.currentHealth > 0)
                     {
-                        targetHealth.takeDamage(nowDamage * (1 - nowDefense/100));
+                        targetHealth.takeDamage(nowDamage * (1 - targetDefense/100));
                     }
                 }
 
