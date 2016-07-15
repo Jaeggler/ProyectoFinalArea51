@@ -203,7 +203,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 71628172}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &71628174
 Behaviour:
   m_ObjectHideFlags: 0
@@ -336,11 +336,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _summon:
   - _monster: {fileID: 138210, guid: 667c4160301945343b39fea05fdef137, type: 2}
-    _delay: 1
+    _delay: 2
     _quantity: 5
   - _monster: {fileID: 138210, guid: 667c4160301945343b39fea05fdef137, type: 2}
     _delay: 1
-    _quantity: 5
+    _quantity: 10
   _creatures:
   - {fileID: 0}
   - {fileID: 0}
@@ -1810,7 +1810,20 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.5017465
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11418070, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 138744, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
+      propertyPath: m_TagString
+      value: shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463778, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
+      propertyPath: initDefense
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11418070, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1869955064
