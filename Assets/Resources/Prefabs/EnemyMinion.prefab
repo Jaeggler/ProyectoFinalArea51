@@ -160,7 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   status: Motion
   initHealth: 100
-  initSpeed: 1
+  initSpeed: 5
   initDamage: 10
   initDefense: 0
   initAttackSpeed: 0
@@ -209,7 +209,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   enemyList: []
-  targetTag: Player
+  targetTag:
+  - Player
+  - PlayerMinion
   nowDamage: 0
   nowDefense: 0
   nowDodge: 0

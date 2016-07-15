@@ -19,7 +19,6 @@ public class portalController : MonoBehaviour {
         //Check rotation and speed of sprites
         if (playerPos.x > _creatureTransform.position.x)
         {
-            Debug.Log(_creatureStats.initSpeed);
             //If creature is looking to the wrong side
             if (_creatureStats.initSpeed < 0)
             {
@@ -53,7 +52,6 @@ public class portalController : MonoBehaviour {
 
     void Start () {
         _creatures = new List<GameObject>();
-        Debug.Log("Entrando a start");
         if (_summon.Length > 0)
         {
             Invoke("Summon", _summon[nowCreature]._delay);

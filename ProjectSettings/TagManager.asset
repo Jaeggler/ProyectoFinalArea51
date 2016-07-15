@@ -11,6 +11,8 @@ TagManager:
   - ManaSprite
   - HealthController
   - explosion
+  - Blood
+  - PlayerMinion
   layers:
   - Default
   - TransparentFX
@@ -53,6 +55,9 @@ TagManager:
     locked: 0
   - name: Minion
     uniqueID: 1463434773
+    locked: 0
+  - name: Items
+    uniqueID: 2137766561
     locked: 0
   - name: Player
     uniqueID: 2783136683

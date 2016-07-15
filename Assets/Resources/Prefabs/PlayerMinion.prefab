@@ -35,7 +35,7 @@ GameObject:
   - 114: {fileID: 11402598}
   m_Layer: 10
   m_Name: PlayerMinion
-  m_TagString: Player
+  m_TagString: PlayerMinion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,7 +165,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   enemyList: []
-  targetTag: Enemy
+  targetTag:
+  - Enemy
   nowDamage: 0
   nowDefense: 0
   nowDodge: 0
