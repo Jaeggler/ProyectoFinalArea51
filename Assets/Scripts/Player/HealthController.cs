@@ -70,10 +70,12 @@ public class HealthController : MonoBehaviour {
             alive = false;
             if (tag == "Enemy")
             {
+                Vector3 newPos = transform.position;
+                newPos.z = _bloodPrefab.transform.position.z;
                 //Creamos el objeto blood que puede recoger el player con un click y le asignamos el valor de blood
-                GameObject _bloodDrop = Instantiate(_bloodPrefab, transform.position, transform.rotation) as GameObject;
-                _bloodDrop.GetComponent<itemController>()._itemValue = _stats.bloodDrop; //Setear cantidad de blood
-                _bloodDrop.GetComponent<itemController>()._itemType = 1; //Setear tipo Blood
+                GameObject _bloodDrop = Instantiate(_bloodPrefab, newPos, transform.rotation) as GameObject;
+                _bloodDrop.GetComponent<ItemController>()._itemValue = _stats.bloodDrop; //Setear cantidad de blood
+                _bloodDrop.GetComponent<ItemController>()._itemType = 1; //Setear tipo Blood
             }
 
             //Destruimos el objeto con un pequeno delay para que la reduccion de collider sea efectiva.

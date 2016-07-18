@@ -356,7 +356,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!1 &250666060
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,7 +1784,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 406262, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 11411102, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
       propertyPath: bloodBar

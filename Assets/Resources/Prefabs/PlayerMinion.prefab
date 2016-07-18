@@ -60,8 +60,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151574}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2639432, y: -5.7768908, z: 0}
-  m_LocalScale: {x: -5, y: 5, z: 1}
+  m_LocalPosition: {x: 7.092639, y: -5.226129, z: 0}
+  m_LocalScale: {x: -7, y: 7, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 405444}
@@ -168,8 +168,6 @@ MonoBehaviour:
   targetTag:
   - Enemy
   nowDamage: 0
-  nowDefense: 0
-  nowDodge: 0
   isTrigger: 0
 --- !u!114 &11443812
 MonoBehaviour:
@@ -185,6 +183,8 @@ MonoBehaviour:
   IdNum: 0
   currentHealth: 0
   healthBar: {fileID: 0}
+  nowDefense: 0
+  nowDodge: 0
 --- !u!114 &11452858
 MonoBehaviour:
   m_ObjectHideFlags: 1
