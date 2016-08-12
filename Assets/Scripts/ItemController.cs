@@ -5,6 +5,8 @@ public class ItemController : MonoBehaviour
 {
     public float _itemValue = 0;
     public int _itemType = 0;
+    private RuntimePlatform platform = Application.platform;
+
     /*
      * ItemType representa el tipo de variable que sera afectada por el valor.
      * ItemType 1 = Blood
@@ -34,7 +36,7 @@ public class ItemController : MonoBehaviour
 
     void OnMouseOver()
     {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             Collider2D _objTouched = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position));
             if (_objTouched != null)
