@@ -36,23 +36,41 @@ public class ItemController : MonoBehaviour
 
     void OnMouseOver()
     {
-            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if(Application.platform == RuntimePlatform.Android)
         {
-            Collider2D _objTouched = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position));
-            if (_objTouched != null)
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
-                Debug.Log(_objTouched.name);
-                Debug.Log("Obj Touched "+ _objTouched.GetInstanceID());
-                Debug.Log("My object "+gameObject.GetComponent<Collider2D>().GetInstanceID());
-                if (_objTouched.GetInstanceID() == gameObject.GetComponent<Collider2D>().GetInstanceID())
+                Collider2D _objTouched = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position));
+                if (_objTouched != null)
                 {
-                    BloodController _playerBlood = GameObject.FindGameObjectWithTag("Player").GetComponent<BloodController>();
-                    Debug.Log(_playerBlood.currentBlood);
-                    _playerBlood.incrementBlood(10f);
-                    Destroy(gameObject, 0.01f);
+                    if (_objTouched.GetInstanceID() == gameObject.GetComponent<Collider2D>().GetInstanceID())
+                    {
+                        BloodController _playerBlood = GameObject.FindGameObjectWithTag("Player").GetComponent<BloodController>();
+                        Debug.Log(_playerBlood.currentBlood);
+                        _playerBlood.incrementBlood(10f);
+                        Destroy(gameObject, 0.01f);
+
+                    }
 
                 }
+            }
+        }else
+        {
+            if  (Input.GetMouseButtonUp(0))
+            {
+                Collider2D _objTouched = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+                if (_objTouched != null)
+                {
+                    if (_objTouched.GetInstanceID() == gameObject.GetComponent<Collider2D>().GetInstanceID())
+                    {
+                        BloodController _playerBlood = GameObject.FindGameObjectWithTag("Player").GetComponent<BloodController>();
+                        Debug.Log(_playerBlood.currentBlood);
+                        _playerBlood.incrementBlood(10f);
+                        Destroy(gameObject, 0.01f);
 
+                    }
+
+                }
             }
         }
 

@@ -2312,6 +2312,14 @@ Prefab:
       propertyPath: initDefense
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 11411102, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
+      propertyPath: bloodText
+      value: 
+      objectReference: {fileID: 1552170995}
+    - target: {fileID: 11457768, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
+      propertyPath: manaText
+      value: 
+      objectReference: {fileID: 391738367}
     m_RemovedComponents:
     - {fileID: 11418070, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 796b25914a2df2e43ad450aeace42a3f, type: 2}
