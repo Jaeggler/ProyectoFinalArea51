@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class ManaController : MonoBehaviour {
     public float currentMana;
     private StatsController _stats;
     public Renderer manaBar;
+    public Text manaText;
 
     // Use this for initialization
     void Start () {
@@ -15,13 +17,17 @@ public class ManaController : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
+
         if (manaBar)
         {
-            if (manaBar)
-            {
-                manaBar.material.SetFloat("_Progress", currentMana / _stats.initMana);
-            }
+            manaBar.material.SetFloat("_Progress", currentMana / _stats.initMana);
         }
+
+        if (manaText)
+        {
+            manaText.text = currentMana.ToString();
+        }
+
 
     }
 
@@ -32,6 +38,11 @@ public class ManaController : MonoBehaviour {
         {
             manaBar.material.SetFloat("_Progress", currentMana / _stats.initMana);
         }
+        if (manaText)
+        {
+            manaText.text = currentMana.ToString();
+        }
+
     }
     public void incrementMana(float amount)
     {
