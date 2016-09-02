@@ -29,4 +29,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+
 Assets/.DS_Store
+ProjectSettings/EditorSettings.asset
+
