@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 8beca503fe9e747cdb9cfb8acc4ec1fa
+timeCreated: 1472159077
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Metal Slug-Soldier Attack_0
+    21300002: Metal Slug-Soldier Attack_1
+    21300004: Metal Slug-Soldier Attack_2
+    21300006: Metal Slug-Soldier Attack_3
+    21300008: Metal Slug-Soldier Attack_4
+    21300010: Metal Slug-Soldier Attack_5
+    21300012: Metal Slug-Soldier Attack_6
+    21300014: Metal Slug-Soldier Attack_7
+    21300016: Metal Slug-Soldier Attack_8
+    21300018: Metal Slug-Soldier Attack_9
+    21300020: Metal Slug-Soldier Attack_10
+    21300022: Metal Slug-Soldier Attack_11
+    21300024: Metal Slug-Soldier Attack_12
+    21300026: Metal Slug-Soldier Attack_13
+    21300028: Metal Slug-Soldier Attack_14
+    21300030: Metal Slug-Soldier Attack_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Metal Slug-Soldier Attack_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 18.5}
+        - {x: -30.5, y: 15.5}
+        - {x: -30.5, y: -6.5}
+        - {x: -0.5, y: -18.5}
+        - {x: 30.5, y: -18.5}
+        - {x: 30.5, y: 18.5}
+    - name: Metal Slug-Soldier Attack_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 37
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Metal Slug-Soldier Attack_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 37
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 19.5}
+        - {x: -20, y: 17.5}
+        - {x: -20, y: -2.5}
+        - {x: -10, y: -19.5}
+        - {x: 20, y: -19.5}
+        - {x: 20, y: 17.5}
+        - {x: 19, y: 19.5}
+    - name: Metal Slug-Soldier Attack_3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -24}
+        - {x: 16, y: -24}
+        - {x: 16, y: 15}
+        - {x: 12, y: 24}
+    - name: Metal Slug-Soldier Attack_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 33}
+        - {x: -19, y: -4}
+        - {x: -14, y: -33}
+        - {x: 19, y: -33}
+        - {x: 19, y: 18}
+        - {x: 6, y: 33}
+    - name: Metal Slug-Soldier Attack_5
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Metal Slug-Soldier Attack_6
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36}
+        - {x: -17, y: -36}
+        - {x: 17, y: -36}
+        - {x: 17, y: 5}
+        - {x: 6, y: 36}
+    - name: Metal Slug-Soldier Attack_7
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 24}
+        - {x: -18.5, y: 24}
+        - {x: -18.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 18.5, y: 13}
+        - {x: 8.5, y: 20}
+    - name: Metal Slug-Soldier Attack_8
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 2
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 32}
+        - {x: -26, y: 11}
+        - {x: -8, y: -28}
+        - {x: -6, y: -32}
+        - {x: 26, y: -32}
+        - {x: 26, y: 11}
+        - {x: 9, y: 32}
+    - name: Metal Slug-Soldier Attack_9
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 2
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 30.5}
+        - {x: -28, y: 30.5}
+        - {x: -28, y: -5.5}
+        - {x: -4, y: -30.5}
+        - {x: 28, y: -30.5}
+        - {x: 28, y: 8.5}
+    - name: Metal Slug-Soldier Attack_10
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 31}
+        - {x: -26.5, y: 31}
+        - {x: -26.5, y: 8}
+        - {x: -10.5, y: -31}
+        - {x: 26.5, y: -31}
+        - {x: 26.5, y: 8}
+        - {x: 23.5, y: 16}
+    - name: Metal Slug-Soldier Attack_11
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 2
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 32}
+        - {x: -25, y: -13}
+        - {x: -7, y: -32}
+        - {x: 25, y: -32}
+        - {x: 25, y: 8}
+        - {x: -8, y: 32}
+    - name: Metal Slug-Soldier Attack_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Metal Slug-Soldier Attack_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Metal Slug-Soldier Attack_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Metal Slug-Soldier Attack_15
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

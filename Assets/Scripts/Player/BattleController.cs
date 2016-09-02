@@ -4,17 +4,18 @@ using System.Collections.Generic;
 
 public class BattleController : MonoBehaviour {
 
-	MovementController _movement;
-	public GameObject target;
 	Animator _animator;
+	MovementController _movement;
+	StatsController _stats;
+
+	public GameObject target;
 	public List<GameObject> enemyList = new List<GameObject>();
     public string[] targetTag;
-    StatsController _stats;
     public float nowDamage;
     public bool isTrigger;
 
     // Use this for initialization
-    void Awake () {
+    void OnEnable () {
 		_animator = GetComponent<Animator> ();
 		_movement = GetComponent<MovementController>();
         _stats = GetComponent<StatsController>();
@@ -75,7 +76,9 @@ public class BattleController : MonoBehaviour {
         if (_stats.status == "Battle")
         {
                 HealthController targetHealth;
-                float targetDefense;
+                
+
+			float targetDefense;
                 float targetDodge;
                 if (target)
                 {

@@ -7,7 +7,7 @@ public class portalController : MonoBehaviour {
     public portalClass[] _summon;
     public List<GameObject> _creatures;
     int nowCreature = 0;
-    int nowCount = 0;
+	int nowCount = 0;StatsController _stats;
     int totalCount = 0;
 
     void Summon()
