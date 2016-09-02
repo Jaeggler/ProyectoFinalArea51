@@ -38,12 +38,21 @@ public class BloodController : MonoBehaviour {
 
     }
 
-    public void decreaseBlood(float amount)
+    public bool decreaseBlood(float amount)
     {
-        currentBlood -= amount;
-        if (bloodBar)
+
+        if (currentBlood - amount < 0)
         {
-            bloodBar.material.SetFloat("_Progress", currentBlood / _stats.initBlood);
+            return false;
+        }
+        else
+        {
+            currentBlood -= amount;
+            if (bloodBar)
+            {
+                bloodBar.material.SetFloat("_Progress", currentBlood / _stats.initBlood);
+            }
+            return true;
         }
     }
     public void incrementBlood(float amount)

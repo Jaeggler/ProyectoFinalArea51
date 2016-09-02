@@ -8,10 +8,14 @@ public class ManaController : MonoBehaviour {
     public Renderer manaBar;
     public Text manaText;
 
+    public float manaGenerationTime;
+    private float currentGenerationTime;
+
     // Use this for initialization
     void Start () {
         _stats = GetComponent<StatsController>();
         currentMana = _stats.initMana;
+        currentGenerationTime = manaGenerationTime;
     }
 
     // Update is called once per frame
@@ -28,21 +32,38 @@ public class ManaController : MonoBehaviour {
             manaText.text = currentMana.ToString();
         }
 
+        if (manaGenerationTime > 0)
+        {
+            currentGenerationTime = currentGenerationTime - Time.deltaTime;
+            if (currentGenerationTime <= 0)
+            {
+                currentMana = currentMana + 1;
+                currentGenerationTime = manaGenerationTime;
+            }
+        }
+
 
     }
 
-    public void decreaseMana(float amount)
+    public bool decreaseMana(float amount)
     {
-        currentMana -= amount;
-        if (manaBar)
+        if (currentMana - amount < 0)
         {
-            manaBar.material.SetFloat("_Progress", currentMana / _stats.initMana);
+            return false;
         }
-        if (manaText)
+        else
         {
-            manaText.text = currentMana.ToString();
+            currentMana -= amount;
+            if (manaBar)
+            {
+                manaBar.material.SetFloat("_Progress", currentMana / _stats.initMana);
+            }
+            if (manaText)
+            {
+                manaText.text = currentMana.ToString();
+            }
+            return true;
         }
-
     }
     public void incrementMana(float amount)
     {

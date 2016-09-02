@@ -54,9 +54,18 @@ public class HealthController : MonoBehaviour {
         }
     }
 
+    public void takeMagicDamage(float amount)
+    {
+        currentHealth -= amount;
+        if (healthBar)
+        {
+            healthBar.material.SetFloat("_Progress", currentHealth / _stats.initHealth);
+        }
+    }
+
     //Funcion para muerte del character. Se utilizara un sistema de reduccion de BoxCollider2D para que
     //la funcion OnCollisionExit2D del atacante sea dispare.
-     void checkDeath(){
+    void checkDeath(){
 
 		//variables y vector2 para definir la reduccion del BoxCol2D.
 		float siz1 = 0.1f;
@@ -71,7 +80,16 @@ public class HealthController : MonoBehaviour {
             if (tag == "Enemy")
             {
                 Vector3 newPos = transform.position;
+                Debug.Log("Posicion en x del monstruo: " + transform.position.x);
+
+                newPos.x = Random.Range(Screen.width * 0.2f, Screen.width * 0.7f);
+                Debug.Log("Posicion en x generada: " + newPos.x);
+
+                newPos.y = Random.Range(Screen.height * 0.2f, Screen.height * 0.7f);
+
+                newPos = Camera.main.ScreenToWorldPoint(newPos);
                 newPos.z = _bloodPrefab.transform.position.z;
+                
                 //Creamos el objeto blood que puede recoger el player con un click y le asignamos el valor de blood
                 GameObject _bloodDrop = Instantiate(_bloodPrefab, newPos, transform.rotation) as GameObject;
                 _bloodDrop.GetComponent<ItemController>()._itemValue = _stats.bloodDrop; //Setear cantidad de blood

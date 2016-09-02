@@ -160,6 +160,8 @@ MonoBehaviour:
   IdNum: 0
   currentHealth: 0
   healthBar: {fileID: 0}
+  nowDefense: 0
+  nowDodge: 0
 --- !u!114 &11411102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -173,6 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentBlood: 0
   bloodBar: {fileID: 0}
+  bloodText: {fileID: 0}
 --- !u!114 &11418070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -208,6 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentMana: 0
   manaBar: {fileID: 0}
+  manaText: {fileID: 0}
 --- !u!114 &11463778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -219,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57975dd7b2ee5843b51a22df1bc603c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  status: 
+  status: 0
   initHealth: 500
   initSpeed: 0
   initDamage: 0
