@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class BloodController : MonoBehaviour {
     public float currentBlood;
     private StatsController _stats;
     public Renderer bloodBar;
+    public Text bloodText;
 
     // Use this for initialization
     void Start()
@@ -15,6 +17,10 @@ public class BloodController : MonoBehaviour {
         {
             bloodBar.material.SetFloat("_Progress", currentBlood / _stats.initBlood);
         }
+        if(bloodText)
+        {
+            bloodText.text = currentBlood.ToString();
+        }
 
     }
 
@@ -23,7 +29,11 @@ public class BloodController : MonoBehaviour {
     {
         if (bloodBar)
         {
-            //bloodBar.material.SetFloat("_Progress", currentBlood / _stats.totalBlood);
+            bloodBar.material.SetFloat("_Progress", currentBlood / _stats.initBlood);
+        }
+        if (bloodText)
+        {
+            bloodText.text = currentBlood.ToString();
         }
 
     }
