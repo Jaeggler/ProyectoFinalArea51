@@ -95,12 +95,12 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0
+  m_GravityScale: 10
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &6168460
 BoxCollider2D:
@@ -110,7 +110,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 138210}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e6ac860e46d93bf468c848de209e7ab7, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57975dd7b2ee5843b51a22df1bc603c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  status: Motion
+  status: 0
   initHealth: 100
   initSpeed: 5
   initDamage: 10
@@ -170,6 +170,7 @@ MonoBehaviour:
   bloodDrop: 10
   initBlood: 0
   initMana: 0
+  transitionTime: 0
 --- !u!114 &11448118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -228,6 +229,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nowSpeed: 0
+  detectGroundMask:
+    serializedVersion: 2
+    m_Bits: 4096
 --- !u!212 &21289480
 SpriteRenderer:
   m_ObjectHideFlags: 1

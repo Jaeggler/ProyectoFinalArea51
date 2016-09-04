@@ -4,18 +4,17 @@ using System.Collections.Generic;
 
 public class BattleController : MonoBehaviour {
 
-	Animator _animator;
 	MovementController _movement;
-	StatsController _stats;
-
 	public GameObject target;
+	Animator _animator;
 	public List<GameObject> enemyList = new List<GameObject>();
     public string[] targetTag;
+    StatsController _stats;
     public float nowDamage;
     public bool isTrigger;
 
     // Use this for initialization
-    void OnEnable () {
+    void Awake () {
 		_animator = GetComponent<Animator> ();
 		_movement = GetComponent<MovementController>();
         _stats = GetComponent<StatsController>();
@@ -30,16 +29,19 @@ public class BattleController : MonoBehaviour {
 	// Update is called once per frame
     void checkBattle()
     {
-        if (isTrigger)
+        if (_stats.status != StatsController.Status.PushSkill)
         {
-            _animator.SetBool("isAtkRange", true);
-            _stats.status = "Battle";
-        }
-        else
-        {
-            _animator.SetBool("isAtkRange", false);
-            target = null;
-            _stats.status = "Motion";
+            if (isTrigger)
+            {
+                _animator.SetBool("isAtkRange", true);
+                _stats.status = StatsController.Status.Battle;
+            }
+            else
+            {
+                _animator.SetBool("isAtkRange", false);
+                target = null;
+                _stats.status = StatsController.Status.Motion;
+            }
         }
 
     }
@@ -51,7 +53,7 @@ public class BattleController : MonoBehaviour {
 	//Entrar al rango Collision
 
 	void checkEnemyList(){
-        if (_stats.status == "Battle")
+        if (_stats.status == StatsController.Status.Battle)
         {
             if (target == null && enemyList.Count != 0)
             {
@@ -73,12 +75,10 @@ public class BattleController : MonoBehaviour {
     }
 
 	void attack (){
-        if (_stats.status == "Battle")
+        if (_stats.status == StatsController.Status.Battle)
         {
                 HealthController targetHealth;
-                
-
-			float targetDefense;
+                float targetDefense;
                 float targetDodge;
                 if (target)
                 {
