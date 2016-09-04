@@ -2,7 +2,9 @@
 using System.Collections;
 //This class maintains all main stats of the minion or player minion
 public class StatsController : MonoBehaviour {
-    public string status;
+    public enum Status { Motion, Battle, PushSkill,StunSkill};
+
+    public Status status; 
     //Status can be: Motion - Battle
     public float initHealth;
     public float initSpeed;
@@ -16,15 +18,20 @@ public class StatsController : MonoBehaviour {
 
     public float initBlood;
     public float initMana;
+    public float transitionTime;
 	// Use this for initialization
 	void Awake () {
         //Status can be Motion - Battle
-        status = "Motion";
+        status = Status.Motion;
         type = "minion";
+        transitionTime = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        if (transitionTime > 0)
+        {
+            transitionTime = transitionTime - Time.deltaTime;
+        }
+    }
 }

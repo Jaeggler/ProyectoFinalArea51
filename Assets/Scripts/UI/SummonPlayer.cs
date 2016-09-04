@@ -21,8 +21,11 @@ public class SummonPlayer : MonoBehaviour {
 	public void summonPlayer (){
         if (Player.currentBlood > 0)
         {
-            Instantiate(PlayerMinion, summonPoint.transform.position, Quaternion.identity);
-            Player.decreaseBlood(PlayerMinion.GetComponent<StatsController>().bloodCost);
+            if (Player.decreaseBlood(PlayerMinion.GetComponent<StatsController>().bloodCost))
+            {
+                Instantiate(PlayerMinion, summonPoint.transform.position, Quaternion.identity);
+            }
+
         }
     }
 }
