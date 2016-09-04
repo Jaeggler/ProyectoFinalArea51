@@ -942,7 +942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e021888384dad402fb37b3aeedde9f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerMinion: {fileID: 151574, guid: 95091b411831b4fffab5013bdb4c7878, type: 2}
+  PlayerMinion: {fileID: 151574, guid: 4a4bd66bf2d3724438911cd54a6381f9, type: 2}
   summonPoint: {fileID: 1527340981}
   Player: {fileID: 917788329}
 --- !u!1 &1073156866
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6444466ec7e6b4b73ab3e66ce37cf4b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyMinion: {fileID: 138210, guid: 667c4160301945343b39fea05fdef137, type: 2}
+  EnemyMinion: {fileID: 138210, guid: 0cae7c3a58219274a80a266018555d91, type: 2}
   summonPoint: {fileID: 37837104}
 --- !u!1 &1357570122
 GameObject:

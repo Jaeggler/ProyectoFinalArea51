@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57975dd7b2ee5843b51a22df1bc603c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  status: Motion
+  status: 0
   initHealth: 200
   initSpeed: -2
   initDamage: 25
@@ -152,6 +152,7 @@ MonoBehaviour:
   bloodDrop: 50
   initBlood: 0
   initMana: 0
+  transitionTime: 0
 --- !u!114 &11440202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -197,6 +198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nowSpeed: 0
+  detectGroundMask:
+    serializedVersion: 2
+    m_Bits: 4096
 --- !u!114 &11475538
 MonoBehaviour:
   m_ObjectHideFlags: 1
