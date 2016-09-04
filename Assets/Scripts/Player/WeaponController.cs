@@ -30,7 +30,6 @@ public class WeaponController : MonoBehaviour {
         {
             _battle.isTrigger = true;
             _battle.enemyList.Add(other.gameObject);
-            Debug.Log("entrando en colision");
         }
 
             }
