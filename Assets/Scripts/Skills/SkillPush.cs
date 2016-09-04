@@ -29,6 +29,7 @@ public class SkillPush : SkillClass {
         return false;
     }
 
+
     void OnTriggerEnter2D(Collider2D other)
     {
         StatsController otherStats = other.GetComponent<StatsController>();
@@ -45,6 +46,7 @@ public class SkillPush : SkillClass {
                 rb.AddForce(new Vector2(-15f, 50f) * pushForce);
                 enemiesTouched.Add(other.GetInstanceID());
             }
+
         }
     }
     

@@ -25,6 +25,7 @@ public class SkillTouch : SkillClass {
         _health.takeMagicDamage(damageOnTouch);
         Player.GetComponent<ManaController>().decreaseMana(manaCost);
     }
+
     bool IsUIInput()
     {
 
