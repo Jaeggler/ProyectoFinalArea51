@@ -8,10 +8,10 @@ public class SkillTouch : SkillClass {
     private GameObject Player;
     public GameObject SkillExplosion;
     GameObject explosion;
-    UIController _uiController;
+    UITouch _uiController;
     // Use this for initialization
     void Start () {
-        _uiController = FindObjectOfType<UIController>();
+        _uiController = GameObject.Find("UIController").GetComponent<UITouch>();
         Player = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -26,9 +26,8 @@ public class SkillTouch : SkillClass {
         Player.GetComponent<ManaController>().decreaseMana(manaCost);
     }
 
-    bool IsUIInput()
+    public bool IsUIInput()
     {
-
         return _uiController.UIClicked;
     }
 
@@ -41,9 +40,9 @@ public class SkillTouch : SkillClass {
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 Collider2D _objTouched = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position));
-
                 if (_objTouched != null)
                 {
+                    
                     if (_objTouched.CompareTag("Button") || _objTouched.CompareTag("Blood") || IsUIInput()) //Checking if a button has been clicked
                     {
 
@@ -73,37 +72,42 @@ public class SkillTouch : SkillClass {
                 RaycastHit[] hits = Physics.RaycastAll(myray, 1000.0f);
                 
                 Collider2D _objTouched = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-                if (_objTouched != null)
+                //First check if the user has touched any UI Element
+                if (IsUIInput())
                 {
-                    Debug.Log(_objTouched.tag);
-                    if (_objTouched.CompareTag("Button") || _objTouched.CompareTag("Blood") || IsUIInput()) //Checking if a button has been clicked
+
+                }
+                else
+                {
+                    if (_objTouched != null)
                     {
+                        if (_objTouched.CompareTag("Button") || _objTouched.CompareTag("Blood"))
+                        {
+
+                        }
+                        else
+                        {
+                            if (SkillExplosion && Player.GetComponent<ManaController>().decreaseMana(manaCost))
+                            {
+                                explosion = (GameObject)Instantiate(SkillExplosion, Camera.main.ScreenToWorldPoint(Input.mousePosition), SkillExplosion.transform.rotation);
+                                explosion.transform.parent = gameObject.transform;
+                                if (_objTouched.CompareTag("Enemy"))
+                                {
+                                    MakeDamage(_objTouched.gameObject.GetComponent<HealthController>());
+                                }
+                            }
+
+                        }
 
                     }
                     else
                     {
-                        Debug.Log("Se detecto un click en el mouse");
-
-                        if (SkillExplosion)
+                        if (SkillExplosion && Player.GetComponent<ManaController>().decreaseMana(manaCost))
                         {
                             explosion = (GameObject)Instantiate(SkillExplosion, Camera.main.ScreenToWorldPoint(Input.mousePosition), SkillExplosion.transform.rotation);
                             explosion.transform.parent = gameObject.transform;
                         }
-                        Player.GetComponent<ManaController>().decreaseMana(manaCost);
-
-                        if (_objTouched.CompareTag("Enemy"))
-                        {
-                            MakeDamage(_objTouched.gameObject.GetComponent<HealthController>());
-                        } 
-                     }
-                }else
-                {
-                    if (SkillExplosion)
-                    {
-                        explosion = (GameObject)Instantiate(SkillExplosion, Camera.main.ScreenToWorldPoint(Input.mousePosition), SkillExplosion.transform.rotation);
-                        explosion.transform.parent = gameObject.transform;
                     }
-                    Player.GetComponent<ManaController>().decreaseMana(manaCost);
                 }
             }
         }

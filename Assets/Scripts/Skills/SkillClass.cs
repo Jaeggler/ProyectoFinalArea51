@@ -4,6 +4,7 @@ using System.Collections;
 public class SkillClass : MonoBehaviour {
     public float manaCost;
     public float lifetime;
+    public float coolDown;
 
     // Use this for initialization
     void Start () {

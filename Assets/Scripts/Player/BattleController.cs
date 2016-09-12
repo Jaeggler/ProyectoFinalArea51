@@ -29,7 +29,7 @@ public class BattleController : MonoBehaviour {
 	// Update is called once per frame
     void checkBattle()
     {
-        if (_stats.status != StatsController.Status.PushSkill)
+        if (_stats.status != StatsController.Status.PushSkill && _stats.status != StatsController.Status.StunSkill)
         {
             if (isTrigger)
             {
