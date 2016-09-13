@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour {
 
@@ -10,7 +11,7 @@ public class HealthController : MonoBehaviour {
 	//Variables publicas para la vida.
 	public float currentHealth;
     private StatsController _stats;
-    public Renderer healthBar;
+    public Image healthBar;
     private GameObject _bloodPrefab;
     private bool alive;
     public float nowDefense;
@@ -34,7 +35,7 @@ public class HealthController : MonoBehaviour {
         _bloodPrefab = Resources.Load("Prefabs/BloodDrop") as GameObject;
         if (healthBar)
         {
-            healthBar.material.SetFloat("_Progress", currentHealth / _stats.initHealth);
+            healthBar.fillAmount = 1- (currentHealth / _stats.initHealth);
         }
     }
     // Update is called once per frame
@@ -50,7 +51,8 @@ public class HealthController : MonoBehaviour {
         }
         if (healthBar)
         {
-            healthBar.material.SetFloat("_Progress", currentHealth / _stats.initHealth);
+            healthBar.fillAmount = 1-(currentHealth / _stats.initHealth);
+            print("Vida Actual: " + currentHealth / _stats.initHealth);
         }
     }
 
@@ -59,7 +61,7 @@ public class HealthController : MonoBehaviour {
         currentHealth -= amount;
         if (healthBar)
         {
-            healthBar.material.SetFloat("_Progress", currentHealth / _stats.initHealth);
+            healthBar.fillAmount = 1-(currentHealth / _stats.initHealth);
         }
     }
 

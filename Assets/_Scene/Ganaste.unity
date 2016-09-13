@@ -231,7 +231,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Perdiste
+  m_Text: Ganaste!
 --- !u!222 &272660168
 CanvasRenderer:
   m_ObjectHideFlags: 0

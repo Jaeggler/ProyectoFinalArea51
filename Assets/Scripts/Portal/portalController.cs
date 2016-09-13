@@ -13,7 +13,7 @@ public class portalController : MonoBehaviour {
     void Summon()
     {
         Vector3 playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
-        _creatures.Add((GameObject)Instantiate(_summon[nowCreature]._monster, transform.position,transform.rotation));
+        _creatures.Add((GameObject)Instantiate(_summon[nowCreature]._monster,transform.position,transform.rotation));
         StatsController _creatureStats = _creatures[_creatures.Count-1].GetComponent<StatsController>();
         Transform _creatureTransform =  _creatures[_creatures.Count - 1].transform;
         //Check rotation and speed of sprites

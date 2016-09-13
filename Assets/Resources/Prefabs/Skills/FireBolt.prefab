@@ -161,7 +161,7 @@ MonoBehaviour:
   coolDown: 10
   SkillExplosion: {fileID: 152606, guid: 5a71585e67e5e4348bf217936d064698, type: 2}
   pushForce: 50
-  damage: 10
+  damage: 25
 --- !u!114 &11485444
 MonoBehaviour:
   m_ObjectHideFlags: 1
