@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: d07c8a7b518bb5a409cd37db5e01b490
+timeCreated: 1473746543
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: celtic  final caminando sprite sheet_0
+    21300002: celtic  final caminando sprite sheet_1
+    21300004: celtic  final caminando sprite sheet_2
+    21300006: celtic  final caminando sprite sheet_3
+    21300008: celtic  final caminando sprite sheet_4
+    21300010: celtic  final caminando sprite sheet_5
+    21300012: celtic  final caminando sprite sheet_6
+    21300014: celtic  final caminando sprite sheet_7
+    21300016: celtic  final caminando sprite sheet_8
+    21300018: celtic  final caminando sprite sheet_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3333
+        width: 407
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 3333
+        width: 417
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 3333
+        width: 398
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 3333
+        width: 396
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2335
+        width: 398
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2335
+        width: 398
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 2335
+        width: 398
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2335
+        width: 398
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1335
+        width: 398
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: celtic  final caminando sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1335
+        width: 407
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

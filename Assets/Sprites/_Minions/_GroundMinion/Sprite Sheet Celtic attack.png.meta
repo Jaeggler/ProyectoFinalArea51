@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 97a3b9a5e7cf91a4cbdc2f44ecf63176
+timeCreated: 1473747639
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprite Sheet Celtic attack_0
+    21300002: Sprite Sheet Celtic attack_1
+    21300004: Sprite Sheet Celtic attack_2
+    21300006: Sprite Sheet Celtic attack_3
+    21300008: Sprite Sheet Celtic attack_4
+    21300010: Sprite Sheet Celtic attack_5
+    21300012: Sprite Sheet Celtic attack_6
+    21300014: Sprite Sheet Celtic attack_7
+    21300016: Sprite Sheet Celtic attack_8
+    21300018: Sprite Sheet Celtic attack_9
+    21300020: Sprite Sheet Celtic attack_10
+    21300022: Sprite Sheet Celtic attack_11
+    21300024: Sprite Sheet Celtic attack_12
+    21300026: Sprite Sheet Celtic attack_13
+    21300028: Sprite Sheet Celtic attack_14
+    21300030: Sprite Sheet Celtic attack_15
+    21300032: Sprite Sheet Celtic attack_16
+    21300034: Sprite Sheet Celtic attack_17
+    21300036: Sprite Sheet Celtic attack_18
+    21300038: Sprite Sheet Celtic attack_19
+    21300040: Sprite Sheet Celtic attack_20
+    21300042: Sprite Sheet Celtic attack_21
+    21300044: Sprite Sheet Celtic attack_22
+    21300046: Sprite Sheet Celtic attack_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3158
+        width: 409
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_1
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 3164
+        width: 395
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_2
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3164
+        width: 418
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_3
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 3167
+        width: 422
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_8
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 2164
+        width: 565
+        height: 664
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_15
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 2147
+        width: 391
+        height: 494
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_17
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2163
+        width: 396
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2167
+        width: 398
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_20
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1156
+        width: 542
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_21
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1154
+        width: 484
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_22
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1155
+        width: 457
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite Sheet Celtic attack_23
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 1157
+        width: 455
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
