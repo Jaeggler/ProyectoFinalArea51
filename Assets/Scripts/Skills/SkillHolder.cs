@@ -17,8 +17,7 @@ public class SkillHolder : MonoBehaviour {
         switch (holderType)
         {
             case ClassHolder.Draggable:
-                if (Input.GetMouseButtonDown(0))
-                {
+                 {
                     if (!cooldownController.isCooldown())
                     {
                         if (Player.GetComponent<ManaController>().decreaseMana(SkillAttached.GetComponent<SkillClass>().manaCost))

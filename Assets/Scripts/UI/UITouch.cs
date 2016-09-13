@@ -4,10 +4,9 @@ using System.Collections;
 
 public class UITouch : MonoBehaviour {
     public bool UIClicked = false;
-    private ArrayList _clickedList;
+    ArrayList _clickedList = new ArrayList();
 	// Use this for initialization
 	void Start () {
-        _clickedList = new ArrayList();
 	}
 	
 	// Update is called once per frame
@@ -19,7 +18,7 @@ public class UITouch : MonoBehaviour {
     {
         Debug.Log("On Enter UI");
             _clickedList.Add(gameObject);
-            if (_clickedList.Count > 0)
+        if (_clickedList.Count > 0)
             {
                 UIClicked = true;
             }
@@ -33,7 +32,11 @@ public class UITouch : MonoBehaviour {
     public void onExitUI()
     {
         Debug.Log("On Exit UI");
-            _clickedList.Remove(gameObject);
+            if (gameObject)
+            {
+                _clickedList.Remove(gameObject);
+            }
+
             if (_clickedList.Count > 0)
             {
                 UIClicked = true;

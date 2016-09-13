@@ -55,8 +55,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efd4cbc4e020e794fbbe80815d69c5be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manaCost: 5
+  manaCost: 2
   lifetime: 0.1
+  coolDown: 0
   damageOnTouch: 20
   SkillExplosion: {fileID: 145748, guid: 1853b78a1c089ce4098b038c0ed1b909, type: 2}
 --- !u!1001 &100100000
