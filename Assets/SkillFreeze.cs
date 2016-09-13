@@ -1,14 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SkillPush : SkillClass {
+public class SkillFreeze : SkillClass
+{
     public GameObject SkillExplosion;
-    public float pushForce;
+    public float freezeTime;
     public float damage;
     GameObject explosion;
     private ArrayList enemiesTouched;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         enemiesTouched = new ArrayList();
         if (SkillExplosion)
         {
@@ -36,25 +38,27 @@ public class SkillPush : SkillClass {
         HealthController otherHealth = other.GetComponent<HealthController>();
         if (other && other.CompareTag("Enemy"))
         {
-            if ((otherStats.status == StatsController.Status.Battle || otherStats.status == StatsController.Status.Motion || otherStats.status == StatsController.Status.StunSkill) && !EnemyTouched(other.GetInstanceID()))
+            if ((otherStats.status == StatsController.Status.Battle || otherStats.status == StatsController.Status.Motion || otherStats.status == StatsController.Status.PushSkill) && !EnemyTouched(other.GetInstanceID()))
             {
                 Debug.Log("Firebolt!");
+                otherStats.status = StatsController.Status.StunSkill;
                 Rigidbody2D rb = other.gameObject.GetComponent<Rigidbody2D>();
                 otherHealth.takeMagicDamage(damage);
-                otherStats.transitionTime = 0.25f;
-                rb.AddForce(new Vector2(-15f, 50f) * pushForce);
+                otherStats.transitionTime = freezeTime;
+                rb.velocity = Vector2.zero;
                 Light light = other.GetComponent<Light>();
-                light.color = Color.red;
+                light.color = Color.cyan;
                 light.enabled = true;
-                otherStats.status = StatsController.Status.PushSkill;
+                //rb.AddForce(new Vector2(-15f, 50f) * pushForce);
                 enemiesTouched.Add(other.GetInstanceID());
             }
 
         }
     }
-    
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 }
