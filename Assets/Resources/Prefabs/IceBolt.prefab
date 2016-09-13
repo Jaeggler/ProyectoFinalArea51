@@ -173,7 +173,7 @@ MonoBehaviour:
   SkillExplosion: {fileID: 1000013419063400, guid: 180a251083359d041acf57a53fccf693,
     type: 2}
   freezeTime: 2
-  damage: 10
+  damage: 15
 --- !u!114 &114000012436421270
 MonoBehaviour:
   m_ObjectHideFlags: 1
