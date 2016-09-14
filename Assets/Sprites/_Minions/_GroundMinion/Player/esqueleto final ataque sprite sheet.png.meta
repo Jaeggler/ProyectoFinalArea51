@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: c90720aa3565747289f6d926c6a8ae06
+timeCreated: 1473812146
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: esqueleto final ataque sprite sheet_0
+    21300002: esqueleto final ataque sprite sheet_1
+    21300004: esqueleto final ataque sprite sheet_2
+    21300006: esqueleto final ataque sprite sheet_3
+    21300008: esqueleto final ataque sprite sheet_4
+    21300010: esqueleto final ataque sprite sheet_5
+    21300012: esqueleto final ataque sprite sheet_6
+    21300014: esqueleto final ataque sprite sheet_7
+    21300016: esqueleto final ataque sprite sheet_8
+    21300018: esqueleto final ataque sprite sheet_9
+    21300020: esqueleto final ataque sprite sheet_12
+    21300022: esqueleto final ataque sprite sheet_13
+    21300024: esqueleto final ataque sprite sheet_14
+    21300026: esqueleto final ataque sprite sheet_15
+    21300028: esqueleto final ataque sprite sheet_16
+    21300030: esqueleto final ataque sprite sheet_17
+    21300032: esqueleto final ataque sprite sheet_18
+    21300034: esqueleto final ataque sprite sheet_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3333
+        width: 340
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 3333
+        width: 338
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 3328
+        width: 329
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 3327
+        width: 328
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2333
+        width: 385
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 2319
+        width: 322
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 2265
+        width: 222
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 2265
+        width: 206
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1241
+        width: 555
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1292
+        width: 203
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 1266
+        width: 550
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 1278
+        width: 263
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 331
+        width: 268
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 335
+        width: 344
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: esqueleto final ataque sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 335
+        width: 341
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

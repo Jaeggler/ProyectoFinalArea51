@@ -33,3 +33,7 @@ sysinfo.txt
 Assets/.DS_Store
 ProjectSettings/EditorSettings.asset
 
+Assets/Scripts/SkillFreeze.cs
+Assets/Scripts/SkillFreeze.cs.meta
+
+Assets/_Scene/Main.unity
